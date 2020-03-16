@@ -1,0 +1,186 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Ergebnis
+{% endblock %}
+
+
+
+
+
+
+{% block content %}
+    <p>  Du hast {% if subsession.round_number == 1 %} {{ player.money_left }} {% else %} {{ money_left }} {% endif %} übrig!</p>
+
+    <p>A: {{ project_a_payoff }}     B: {{ project_b_payoff }}     C: {{ project_c_payoff }}</p>
+    <p>A: {{ a_is_backer }}     B: {{ b_is_backer }}     C: {{ c_is_backer }}</p>
+
+    <p> Projekt A: {{ a }}! {% if show_backer  %} Anzahl Backer: {{ group.project_a_backer }} {% endif %} </p>
+    <p> Projekt B: {{ b }}! {% if show_backer  %} Anzahl Backer: {{ group.project_b_backer }} {% endif %} </p>
+    <p> Projekt C: {{ c }}! {% if show_backer  %} Anzahl Backer: {{ group.project_c_backer }} {% endif %} </p>
+
+    <p>{% formfield player.project_a_contribution %} {% formfield player.submit_a %} {% if backout_possible and a_is_backer %} {% formfield player.backout_a %} {% endif %}  </p>
+    <div id="container_a" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+
+
+    <p>{% formfield player.project_b_contribution %} {% formfield player.submit_b %} {% if backout_possible and b_is_backer %} {% formfield player.backout_b %} {% endif %}  </p>
+    <div id="container_b" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+
+
+    <p>{% formfield player.project_c_contribution %} {% formfield player.submit_c %} {% if backout_possible and c_is_backer %} {% formfield player.backout_c %} {% endif %}  </p>
+    <div id="container_c" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+
+
+
+
+
+
+
+
+
+    {% block scripts %}
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+
+
+
+        <div id="container_a" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+        <script>
+            Highcharts.chart('container_a', {
+            chart: {
+                type: 'bar'
+            },
+            credits: {
+                enabled: false
+            },
+            title: {
+                text: ' '
+            },
+            xAxis: {
+                categories: ['Projekt A']
+            },
+            yAxis: {
+                min: 0,
+                max: {{ project_a_goal|json }},
+                title: {
+                    text: 'Ziel',
+                    align: 'high',
+
+                }
+            },
+            legend: {
+                reversed: true
+            },
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+            series: [{
+                name: 'Projekt A',
+                data: {{ project_a_data|json }}
+            }]
+        });
+        </script>
+
+
+
+
+
+
+        <div id="container_b" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+        <script>
+            Highcharts.chart('container_b', {
+            chart: {
+                type: 'bar'
+            },
+            credits: {
+                enabled: false
+            },
+            title: {
+                text: ' '
+            },
+            xAxis: {
+                categories: ['Projekt B']
+            },
+            yAxis: {
+                min: 0,
+                max: {{ project_b_goal|json }},
+                title: {
+                    text: 'Ziel',
+                    align: 'high',
+
+                }
+            },
+            legend: {
+                reversed: true
+            },
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+            series: [{
+                name: 'Projekt B',
+                data: {{ project_b_data|json }}
+            }]
+        });
+        </script>
+
+
+
+
+
+        <div id="container_c" style="min-width: 310px; max-width: 800px; height: 200px; margin: 0 auto"></div>
+
+        <script>
+            Highcharts.chart('container_c', {
+            chart: {
+                type: 'bar'
+            },
+            credits: {
+                enabled: false
+            },
+            title: {
+                text: ' '
+            },
+            xAxis: {
+                categories: ['Projekt C']
+            },
+            yAxis: {
+                min: 0,
+                max: {{ project_c_goal|json }},
+                title: {
+                    text: 'Ziel',
+                    align: 'high',
+
+                }
+            },
+            legend: {
+                reversed: true
+            },
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+            series: [{
+                name: 'Projekt C',
+                data: {{ project_c_data|json }}
+            }]
+        });
+        </script>
+
+
+
+    {% endblock %}
+
+    {% next_button %}
+
+{% endblock %}

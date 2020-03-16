@@ -1,0 +1,30 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Page title
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Projekt A wurde mit <strong> {{ a }}n </strong> (deine Beteiligung: <strong> {{ project_a_contribution_sum }} </strong>) {% if group.project_a_funded %} realisiert! {% else %} nicht realisiert!{% endif %} <br>
+        Projekt B wurde mit <strong> {{ b }}n </strong> (deine Beteiligung: <strong> {{ project_b_contribution_sum }} </strong>) {% if group.project_b_funded %} realisiert! {% else %} nicht realisiert!{% endif %} <br>
+        Projekt C wurde mit <strong> {{ c }}n </strong> (deine Beteiligung: <strong> {{ project_c_contribution_sum }} </strong>) {% if group.project_c_funded %} realisiert! {% else %} nicht realisiert!{% endif %} <br>
+
+    </p>
+
+    <p>
+        Auszahlung Projekt A: <strong> {{ real_project_a_payoff }} </strong> von möglichen <strong> {{ project_a_payoff }}n </strong>! <br>
+        Auszahlung Projekt B: <strong> {{ real_project_b_payoff }} </strong> von möglichen <strong> {{ project_b_payoff }}n </strong>! <br>
+        Auszahlung Projekt C: <strong> {{ real_project_c_payoff }} </strong> von möglichen <strong> {{ project_c_payoff }}n </strong>! <br>
+    </p>
+
+    <p>
+        Deine Gesamtauszahlung (inklusive übriges Kapital) beträgt somit: <strong> {{ player.payoff }} </strong>!
+    </p>
+
+    {% next_button %}
+{% endblock %}
+
+
