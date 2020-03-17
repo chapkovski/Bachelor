@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60788dc-a038-44e3-a21a-dadae545b5d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/marcel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimum/otree_extensions/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/minimum/otree_extensions/consumers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimum/otree_extensions/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/minimum/otree_extensions/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/auth/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/auth/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/bach_test/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/bach_test/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/contenttypes/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/contenttypes/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/min/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/min/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/minimum/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/minimum/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/otree/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/otree/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__temp_migrations/sessions/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/__temp_migrations/sessions/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min/otree_extensions/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/min/otree_extensions/consumers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min/otree_extensions/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/min/otree_extensions/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min/templates/min/includes/channel-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/min/templates/min/includes/channel-js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="257">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -49,13 +53,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minimum/otree_extensions/consumers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="41" selection-end-line="37" />
               <folding>
                 <element signature="e#0#4#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/min/otree_extensions/consumers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/min/templates/min/includes/channel-js.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-218">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/min/otree_extensions/routing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,20 +115,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minimum/otree_extensions/routing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minimum/templates/minimum/includes/channel-js.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -105,9 +138,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/minimum/otree_extensions/routing.py" />
         <option value="$PROJECT_DIR$/minimum/otree_extensions/consumers.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/min/otree_extensions/routing.py" />
+        <option value="$PROJECT_DIR$/min/templates/min/includes/channel-js.html" />
+        <option value="$PROJECT_DIR$/min/otree_extensions/consumers.py" />
       </list>
     </option>
   </component>
@@ -137,6 +173,38 @@
             <path>
               <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
               <item name="marcel" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcel" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="otree_extensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcel" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcel" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcel" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="min" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcel" type="462c0819:PsiDirectoryNode" />
               <item name="minimum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,87 +212,6 @@
               <item name="marcel" type="462c0819:PsiDirectoryNode" />
               <item name="minimum" type="462c0819:PsiDirectoryNode" />
               <item name="otree_extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcel" type="462c0819:PsiDirectoryNode" />
-              <item name="minimum" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcel" type="462c0819:PsiDirectoryNode" />
-              <item name="minimum" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="minimum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcel" type="462c0819:PsiDirectoryNode" />
-              <item name="minimum" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="minimum" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (otree) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,19 +248,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584405622348</updated>
-      <workItem from="1584405626432" duration="1716000" />
+      <workItem from="1584405626432" duration="2310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1716000" />
+    <option name="totallyTimeSpent" value="2310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1229" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58717436" visible="true" weight="0.26790228" />
-      <window_info id="Structure" order="1" sideWeight="0.41282564" side_tool="true" visible="true" weight="0.26790228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58704454" visible="true" weight="0.26790228" />
+      <window_info id="Structure" order="1" sideWeight="0.41295546" side_tool="true" weight="0.26790228" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -286,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18729642" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43811074" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293348" />
       <window_info anchor="right" id="R Graphics" />
@@ -302,27 +289,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/minimum/templates/minimum/includes/channel-js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-294">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -333,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minimum/otree_extensions/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/otree/lib/python3.7/site-packages/channels/generic/websocket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -350,12 +310,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minimum/otree_extensions/routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/minimum/otree_extensions/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-end-line="37" />
           <folding>
             <element signature="e#0#4#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min/otree_extensions/routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min/templates/min/includes/channel-js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min/otree_extensions/consumers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>

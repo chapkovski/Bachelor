@@ -50,5 +50,5 @@ SECRET_KEY = 'jimw*p5ifm$!**s883tzph(zshvdtl2061tkhb#nl7a3v9dg=h'
 
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
 INSTALLED_APPS = ['otree']
-EXTENSION_APPS = ['minimum']
+EXTENSION_APPS = ['minimum', 'min']
 

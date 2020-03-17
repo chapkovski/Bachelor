@@ -1,5 +1,5 @@
-from channels.routing import route_class
-from .consumers import TaskTracker
-
-# the following line builds a path to our consumer
-channel_routing = [route_class(TaskTracker, path=TaskTracker.url_pattern), ]
+from django.urls import re_path
+from .consumers import TaskConsumer
+websocket_routes = [
+    re_path(r'^tasktracker_alt/(?P<player_id>[0-9]+)$', TaskConsumer),
+]

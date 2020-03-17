@@ -4,7 +4,7 @@
         var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
         {# The ws_path corresponds to url_pattern that is defined in our consumers.py file #}
         {# We need the player.id to find the corresponding player in the database #}
-        var ws_path = ws_scheme + '://' + window.location.host + "/tasktracker/{{ player.id }}";
+        var ws_path = ws_scheme + '://' + window.location.host + "/tasktracker_alt/{{ player.id }}";
         var socket = new ReconnectingWebSocket(ws_path);
 
         {# Define variables to get information from the inputs and to manage button clicks #}
